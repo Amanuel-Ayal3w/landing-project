@@ -1,0 +1,230 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+header {
+    background-color: #1F2937;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main-header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    color: #fff;
+    margin: 0;
+    border: none;
+
+
+}
+
+.img {
+    width: 45px;
+    height: 45px;
+    margin-left: 200px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    margin-right: 300px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    flex: auto;
+    background-color: #1F2937;
+
+
+
+}
+
+.main_pic {
+    height: 300px;
+    width: 400px;
+    margin-left: 60px;
+    border-radius: 15px;
+}
+
+.text {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.btn {
+
+    padding: 5px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.align {
+    display: flex;
+
+    justify-content: center;
+    width:1000px;
+    margin-left:400px;
+    padding: 50px;
+    
+}
+
+.pair {
+    display: flex;
+    flex-direction: column; /* Set the flex direction to column */
+    align-items: center; /* Optional: Center items horizontally */
+    margin: 10px;
+     
+
+}
+.div{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    font-size: 30px ;
+}
+
+.pics {
+    width: 100px;
+    height: 100px;
+    gap:20px;
+    border: solid lightblue;
+    border-radius: 5px;
+    /* Optional: Add styling for images */
+}
+
+
+.text-align {
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:150px;
+    text-align: center;
+    
+    /* Optional: Add styling for text */
+}
+.speach{
+    width: 100%;
+    text-align: center;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.speach-text{
+    font-size: 22px;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.quote-name{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+    margin-top:40px;
+    border-radius:10px;
+    background-color: #3882F6;
+    margin-bottom: 40px;
+    padding-top:30px;
+    padding-bottom:30px;
+    gap: 20px;
+}
+.ca-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.text-c{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size:20px ;
+    font-weight: bolder;
+    margin: 0;
+}
+.text-c2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size:14px;
+    margin: 0;
+    padding:1px;
+}
+.btn-2{
+    margin-left: 80px;
+    padding: 5px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #3882F6;
+    color: white;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.footer{
+    background-color: #1F2937;
+    color: #fff;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
