@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    height: 100%;
+    min-width: none;
 
 }
 
@@ -227,11 +229,14 @@ h1 {
     
 }
 .footer{
-
+margin: 0;
+    display:flex;
     background-color: #1F2937;
     color: #fff;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     padding-top:30px;
+    padding-bottom: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
