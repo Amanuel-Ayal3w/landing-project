@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    height: 100%;
     min-width: none;
 
 }
@@ -150,7 +149,7 @@ h1 {
     gap:20px;
     border: solid lightblue;
     border-radius: 5px;
-    /* Optional: Add styling for images */
+    
 }
 
 
@@ -160,7 +159,7 @@ h1 {
     width:150px;
     text-align: center;
     
-    /* Optional: Add styling for text */
+  
 }
 .speach{
     width: 100%;
@@ -229,7 +228,7 @@ h1 {
     
 }
 .footer{
-margin: 0;
+    margin: 0;
     display:flex;
     background-color: #1F2937;
     color: #fff;
